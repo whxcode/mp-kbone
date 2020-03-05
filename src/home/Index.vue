@@ -22,6 +22,9 @@
       <p>这段话也不会在小程序里显示</p>
       <p>在渲染时会被样式隐藏</p>
     </div>
+    <div>
+      isColt 到此一游~
+    </div>
     <Footer></Footer>
   </div>
 </template>
