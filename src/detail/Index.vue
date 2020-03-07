@@ -2,20 +2,17 @@
   <div class="cnt">
     <Header></Header>
     <button @click="onClickBack">回到上一页</button>
-    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Vue from 'vue'
 import Header from '../common/Header.vue'
-import Footer from '../common/Footer.vue'
 
 export default Vue.extend({
   name: 'Detail',
   components: {
     Header,
-    Footer
   },
   created() {
     window.addEventListener('wxload', query => console.log('page3 wxload', query))

@@ -22,10 +22,8 @@
       <p>这段话也不会在小程序里显示</p>
       <p>在渲染时会被样式隐藏</p>
     </div>
-    <div>
-      isColt 到此一游~
-    </div>
-    <Footer></Footer>
+    <!-- Footer 封装了 tabbar 微信小程序上隐藏 -->
+    <Footer class="for-web" :selected="0"></Footer>
   </div>
 </template>
 

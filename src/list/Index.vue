@@ -3,20 +3,17 @@
     <Header></Header>
     <a href="/home">回到首页</a>
     <button @click="onClickJump">回到首页</button>
-    <Footer></Footer>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Header from '../common/Header.vue'
-import Footer from '../common/Footer.vue'
 
 export default Vue.extend({
   name: 'List',
   components: {
     Header,
-    Footer
   },
   created() {
     window.addEventListener('wxload', (query: any) => console.log('page2 wxload', query))

@@ -19,6 +19,7 @@ module.exports = {
     // js 入口
     home: path.resolve(__dirname, '../src/mp/home/main.mp.js'),
     other: path.resolve(__dirname, '../src/mp/other/main.mp.js'),
+    user: path.resolve(__dirname, '../src/user/main.mp.js'),
   },
   output: {
     path: path.resolve(__dirname, '../dist/mp/common'), // 放到小程序代码目录中的 common 目录下
