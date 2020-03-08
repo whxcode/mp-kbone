@@ -78,15 +78,9 @@ npm run build:mp
 ## License
 
 MIT 
-=======
+
 # mp-kbone
-<<<<<<< HEAD
+
 Miniprogram base on Kbone + Vue
->>>>>>> ad5b51db601233d006ab61fda31d45b501ed0bc7
-=======
-1Miniprogram base on Kbone + Vue
-asas
-asas
-asasasf
-asas
->>>>>>> e9b04b0ab4f573ec17919133d0cea39df06768e1
+
+2020-03-07
